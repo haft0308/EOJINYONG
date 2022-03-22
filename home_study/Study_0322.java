@@ -5,34 +5,65 @@ public class Study_0322 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	    int k = 0;
-		for (k = 1; k<101; k++)
-	    {
-	    	if(k%2 == 0 )
-	    	{
-	    		System.out.print("\t");
-	    		continue;
-	    	}
-	    	if(k%10 ==1)
-	    	{
-	    		System.out.println();
-	    	}
-	    	System.out.print(k);
-	    }
-		System.out.println();
-		for(k = 1; k < 10; k++)
-		{
-		    System.out.println("3´Ü=3*"+k+"="+3*k);		
-		}
+//		for (k = 1; k<101; k++)
+//	    {
+//	    	if(k%2 == 0 )
+//	    	{
+//	    		System.out.print("\t");
+//	    		continue;
+//	    	}
+//	    	if(k%10 ==1)
+//	    	{
+//	    		System.out.println();
+//	    	}
+//	    	System.out.print(k);
+//	    }
+//		System.out.println();
+//		for(k = 1; k < 10; k++)
+//		{
+//		    System.out.println("3ë‹¨=3*"+k+"="+3*k);		
+//		}
+//	    
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("êµ¬í•˜ê³  ì‹¶ì€ ë‹¨ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. : ");
+//		int input = sc.nextInt();
+//		
+//		for (k = 1 ; k < 10; k++)
+//		{
+//			System.out.println("ìž…ë ¥ë°›ì€ ìˆ«ìžì˜ ë‹¨ìˆ˜ ="+input+"*"+k+"="+input*k);
+//		}
+//		
+		
 	    
-		Scanner sc = new Scanner(System.in);
+	    
+	    int i = 0;
+		int j = 1;
 		
-		System.out.println("±¸ÇÏ°í ½ÍÀº ´Ü¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
-		int input = sc.nextInt();
-		
-		for (k = 1 ; k < 10; k++)
+		for (i = 2; i < 10; i++)
 		{
-			System.out.println("ÀÔ·Â¹ÞÀº ¼ýÀÚÀÇ ´Ü¼ö ="+input+"*"+k+"="+input*k);
+		    for(k = 1; k < 10; k++  )
+		    {
+		    	System.out.print(i+"*"+k+"="+i*k+"\t");
+		    }
+		    System.out.println();
 		}
+		System.out.println();
+		for (i = 1; i < 10; i++)
+		{
+		    for(k = 2; k < 10; k++  )
+		    {
+		    	System.out.print(k+"*"+i+"="+i*k+"\t");
+		    }
+		    System.out.println();
+		}
+		
+
+		
+
+	    }	
+	    
+		
 	}
 
-}
+
