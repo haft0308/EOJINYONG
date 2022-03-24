@@ -5,8 +5,8 @@ public class Ex_baeyul_max {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int num[] = new int[] { 36,34,667,2436,34435,7678,32434};
-		//°¡Àå Å« °ªÀ» Ãâ·ÂÇØº¸¼¼¿ä
-		int max = -1;
+		//ê°€ì¥ í° ê°’ì„ ì¶œë ¥í•´ë³´ì„¸ìš”
+		int max = num[0];
 		int index = 0;
 		for (int i = 0 ; i < 7 ; i++ )
 		{
@@ -25,12 +25,12 @@ public class Ex_baeyul_max {
 		
 		
 		
-		//»ç¿ëÀÚ·ÎºÎÅÍ ÀÔ·Â¹ŞÀº ¼ö Áß °¡Àå Å« °ªÀ» Ãâ·ÂÇØ º¸¼¼¿ä.
+		//ì‚¬ìš©ìë¡œë¶€í„° ì…ë ¥ë°›ì€ ìˆ˜ ì¤‘ ê°€ì¥ í° ê°’ì„ ì¶œë ¥í•´ ë³´ì„¸ìš”.
 //		Scanner sc = new Scanner(System.in);
 //		int input = sc.nextInt();
 //		int number [] = new int [10];
 //		int i = 0;
-//		System.out.println("¹è¿­¿¡ µé¾î°¥ ¼ö¸¦ Á÷Á¢ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+//		System.out.println("ë°°ì—´ì— ë“¤ì–´ê°ˆ ìˆ˜ë¥¼ ì§ì ‘ ì…ë ¥í•´ ì£¼ì„¸ìš”.");
 //		
 //		for (i = 0; i < 10; i++)
 //		{
